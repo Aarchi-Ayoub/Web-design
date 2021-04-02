@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/master.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <title>My-project</title>
+</head>
+<body>
+    <!-- Start settings box -->
+        <div class="setting-box">
+            <div class="toggle-setting">
+                <i class="fa fa-gear fa-spin"></i>
+            </div>
+            <div class="setting-container">
+                <div class="options-box">
+                    <h4>Colors :</h4>
+                    <ul class="colors-list">
+                        <li class="active" data-color="#ffeb3b"></li>
+                        <li data-color="red"></li>
+                        <li data-color="blue"></li>
+                        <li data-color="green"></li>
+                        <li data-color="violet"></li>
+                    </ul>
+                </div>
+                <div class="options-box">
+                    <h4>Random backgroun</h4>
+                    <div class="random-bcg">
+                        <span class="yes active" data-status="yes">Yes</span>
+                        <span class="no" data-status="no">No</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!-- End settings box -->
+    <!-- Start Nav bullets -->
+     <div class="nav-bullets">
+        <a href="#about">><div class="bullets">
+            <div class="tool-tips" ></div>
+        </div></a>
+        <div class="bullets">
+            <div class="tool-tips" data-nav="skills">Skills</div>
+        </div>
+        <div class="bullets">
+            <div class="tool-tips" data-nav="gallery">Gallery</div>
+        </div>
+        <div class="bullets">
+            <div class="tool-tips" data-nav="timeline">Realisation</div>
+        </div>
+        <div class="bullets">
+            <div class="tool-tips" data-nav="features">Features</div>
+        </div>
+        <div class="bullets">
+            <div class="tool-tips" data-nav="testimonials">Testimonials</div>
+        </div>
+     </div>
+    <!-- End Nav bullets -->
+    <!-- Start the landing page -->
+    <div class="landing-page">
+        <!-- Espace vide pour appliquer une apacity sur la photo et dans lequel on stoque les infos au-dessus -->
+        <div class="overlay"></div>
+        <div class="header-area">
+            <div class="logo">
+                <div class="content"><img src="imgs/logo.jpg" alt="logo"><p>Lets travel</p></div>
+            </div>
+            <ul class="links">
+                <li><a href="#" class="active">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Product</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <div class="description">
+            <h1>Agence des <span>voyages</span> organisés.</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam esse dignissimos et neque ut vel corrupti similique ipsa optio est odit, non omnis dolore reiciendis at, laboriosam hic harum in.</p>
+        </div>
+    </div>
+    <!-- End the landing page -->
+    <!-- Start about us  -->
+    <div class="container">
+        <div class="about" id="about">
+            <div class="infos-box">
+                <h2>About-us</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab vel, molestiae cum, officiis placeat illum iure
+                    ad explicabo illo a accusantium. Voluptate, rem dolorem! Voluptates totam incidunt illo debitis ab!</p>
+            </div>
+            <div class="images-box">
+                <img src="imgs/pic.png" alt="my company">
+            </div>
+        </div>
+    </div>
+    <!-- End about us  -->
+    <!-- Start our Skills-->
+    <div class="skills">
+        <div class="container">
+            <h2>Our Skills</h2>
+            <div class="skill-box">
+                <div class="skill-name">HTML</div>
+                <div class="skill-progress">
+                    <span data-prog="80"></span>
+                </div>
+            </div>
+
+            <div class="skill-box">
+                <div class="skill-name">CSS</div>
+                <div class="skill-progress">
+                    <span data-prog="65"></span>
+                </div>
+            </div>
+
+            <div class="skill-box">
+                <div class="skill-name">JavaScript</div>
+                <div class="skill-progress">
+                    <span data-prog="90"></span>
+                </div>
+            </div>
+
+            <div class="skill-box">
+                <div class="skill-name">PHP</div>
+                <div class="skill-progress">
+                    <span data-prog="75"></span>
+                </div>
+            </div>
+
+            <div class="skill-box">
+                <div class="skill-name">SQL</div>
+                <div class="skill-progress">
+                    <span data-prog="70"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End our Skills-->
+    <!-- Start our gallery -->
+    <div class="gallery">
+        <div class="container">
+            <h2>Our Gallery</h2>
+            <div class="images-box">
+                <img src="imgs/8.jpg" alt="Picture 1">
+                <img src="imgs/2.jpg" alt="Picture 2">
+                <img src="imgs/4.jpg" alt="Picture 3">
+                <img src="imgs/5.jpg" alt="Picture 4">
+                <img src="imgs/13.jpg" alt="Picture 5">
+                <img src="imgs/1.jpg" alt="Picture 6">
+                <img src="imgs/10.jpg">
+                <img src="imgs/7.jpg">
+                <img src="imgs/14.jpg">
+                <img src="imgs/6.jpg">
+                <img src="imgs/15.jpg">
+            </div>
+        </div>
+    </div>
+    <!-- End our gallery -->
+    <!-- Start timeline -->
+    <div class="timeline">
+        <h2>Our realisation</h2>
+        <div class="container">
+            <div class="timeline-content">
+                <div class="year">2017</div>
+                <div class="left">
+                    <div class="content">
+                        <h3>Test hidding</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae eius eum explicabo unde distinctio cum laborum ratione laboriosam nesciunt. Nobis inventore soluta sequi laudantium ex impedit nulla ipsam! Alias, ratione?</p>
+                    </div>
+                </div>
+                <div class="clearFloat"></div>
+                <div class="right">
+                    <div class="content">
+                        <h3>Test hidding</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae eius eum explicabo unde distinctio cum
+                            laborum ratione laboriosam nesciunt. Nobis inventore soluta sequi laudantium ex impedit nulla ipsam! Alias,
+                            ratione?</p>
+                    </div>
+                </div>
+                <div class="clearFloat"></div>
+                <div class="year">2018</div>
+                <div class="left">
+                    <div class="content">
+                        <h3>Test hidding</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae eius eum explicabo unde distinctio cum
+                            laborum ratione laboriosam nesciunt. Nobis inventore soluta sequi laudantium ex impedit nulla ipsam! Alias,
+                            ratione?</p>
+                    </div>
+                </div>
+                <div class="clearFloat"></div>
+                <div class="year">2019</div>
+                <div class="right">
+                    <div class="content">
+                        <h3>Test hidding</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae eius eum explicabo unde distinctio cum
+                            laborum ratione laboriosam nesciunt. Nobis inventore soluta sequi laudantium ex impedit nulla ipsam! Alias,
+                            ratione?</p>
+                    </div>
+                </div>
+                <div class="clearFloat"></div>
+                <div class="left">
+                    <div class="content">
+                        <h3>Test hidding</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae eius eum explicabo unde distinctio cum
+                            laborum ratione laboriosam nesciunt. Nobis inventore soluta sequi laudantium ex impedit nulla ipsam! Alias,
+                            ratione?</p>
+                    </div>
+                </div>
+                <div class="clearFloat"></div>
+                <div class="year">2020</div>
+                <div class="right">
+                    <div class="content">
+                        <h3>Test hidding</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae eius eum explicabo unde distinctio cum
+                            laborum ratione laboriosam nesciunt. Nobis inventore soluta sequi laudantium ex impedit nulla ipsam! Alias,
+                            ratione?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End timeline -->
+    <!-- Start Features section -->
+    <div class="features">
+        <h2>Our features</h2>
+        <div class="container">
+            <div class="feat-box">
+                <img src="imgs/Icon_01.png">
+                <h4>Task 1</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus at nisi alias numquam cum! Numquam odio dolore quae in quod autem voluptatibus omnis eum minima, ratione nemo perspiciatis ipsum repellendus!</p>
+            </div>
+            <div class="feat-box">
+                <img src="imgs/Icon_02.png">
+                <h4>Task 2</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus at nisi alias numquam cum! Numquam odio
+                    dolore quae in quod autem voluptatibus omnis eum minima, ratione nemo perspiciatis ipsum repellendus!</p>
+            </div>
+            <div class="feat-box">
+                <img src="imgs/Icon_03.png">
+                <h4>Task 3</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus at nisi alias numquam cum! Numquam odio
+                    dolore quae in quod autem voluptatibus omnis eum minima, ratione nemo perspiciatis ipsum repellendus!</p>
+            </div>
+            <div class="feat-box">
+                <img src="imgs/Icon_04.png">
+                <h4>Task 4</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus at nisi alias numquam cum! Numquam odio
+                    dolore quae in quod autem voluptatibus omnis eum minima, ratione nemo perspiciatis ipsum repellendus!</p>
+            </div>
+            <div class="feat-box">
+                <img src="imgs/Icon_05.png">
+                <h4>Task 5</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus at nisi alias numquam cum! Numquam odio
+                    dolore quae in quod autem voluptatibus omnis eum minima, ratione nemo perspiciatis ipsum repellendus!</p>
+            </div>
+            <div class="feat-box">
+                <img src="imgs/Icon_06.png">
+                <h4>Task 6</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus at nisi alias numquam cum! Numquam odio
+                    dolore quae in quod autem voluptatibus omnis eum minima, ratione nemo perspiciatis ipsum repellendus!</p>
+            </div>
+            <div class="clearFloat"></div>
+        </div>
+    </div>
+    <!-- End Features section -->
+    <!-- Start Testimonials  -->
+    <div class="testimonials">
+        <div class="container">
+            <h2>Testimonials</h2>
+            <div class="test-box">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi labore eos dolore. Corrupti, minus nemo. Inventore
+                    reprehenderit maiores soluta molestias consequatur, corporis ut in. Explicabo aliquid atque ab minus velit.
+                </p>
+                <div class="person-info">
+                    <img src="https://placehold.it/80/" alt="">
+                    <h4>Full name</h4>
+                    <p>CEO At compagny</p>
+                </div>
+            </div>
+            <div class="test-box">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+                <div class="person-info">
+                    <img src="https://placehold.it/80" alt="">
+                    <h4>Full name</h4>
+                    <p>CEO At compagny</p>
+                </div>
+            </div>
+            <div class="test-box">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi labore eos dolore. 
+                </p>
+                <div class="person-info">
+                    <img src="https://placehold.it/80" alt="">
+                    <h4>Full name</h4>
+                    <p>CEO At compagny</p>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="clearFloat"></div> -->
+    </div>
+    <!-- End Testimonials  -->
+    <script src="js/master.js"></script>
+</body>
+</html>
